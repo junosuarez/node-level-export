@@ -3,7 +3,9 @@
   "author": "jden <jason@denizac.org>",
   "version": "0.1.0",
   "description": "export a level-db database to a JSON stream",
-  "keywords": [""],
+  "keywords": [
+    ""
+  ],
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -13,6 +15,13 @@
   "readmeFilename": "README.md",
   "devDependencies": {
     "chai": "^1.9.1",
-    "mocha": "^1.19.0"
+    "mocha": "^1.19.0",
+    "level-mem": "^0.18.0",
+    "concat-stream": "^1.4.5"
+  },
+  "dependencies": {
+    "wrap-stream": "0.0.0",
+    "join-stream2": "^0.1.0",
+    "through2": "^0.4.2"
   }
 }

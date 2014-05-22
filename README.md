@@ -1,13 +1,27 @@
 # level-export
 export a level-db database to a JSON stream
 
+see also: [level-import](https://npm.im/level-import)
+
 ## usage
 ```js
 var levelExport = require('level-export')
+
+levelExport(levelUPdb)
+  .pipe(process.stdout)
 ```
 
 
 ## api
+
+### `levelExport(db: Object, opt: Object) => ReadableStream`
+
+Creates a readable JSON stream from a LevelUP database instance. This stream is suitable for dumping to a file for backup purposes.
+
+`opt` can have the following options:
+
+- `start` : string. start of export key range
+- `end` : string. end of export key range
 
 
 ## installation
