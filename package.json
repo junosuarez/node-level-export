@@ -10,7 +10,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "repository": "git@github.com:jden/level-export.git",
+  "repository": "git@github.com:jden/node-level-export.git",
   "license": "ISC",
   "readmeFilename": "README.md",
   "devDependencies": {
