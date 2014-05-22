@@ -10,7 +10,14 @@ var levelExport = require('level-export')
 levelExport(levelUPdb)
   .pipe(process.stdout)
 ```
-
+outputs
+```console
+[
+{"key":"a","value":"o"},
+{"key":"b","value":"m"},
+{"key":"c","value":"g"}
+]
+```
 
 ## api
 
