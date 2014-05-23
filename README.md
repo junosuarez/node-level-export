@@ -46,7 +46,7 @@ From package root:
 
 ## prior art
 
-- [level-json](https://github.com/kesla/level-to-json) - returns the whole db as a single JavaScript object. `level-export` uses a streaming interface instead and outputs JSON-serialized strings suitable for piping to a file or other destination.
+- [level-to-json](https://github.com/kesla/level-to-json) - returns the whole db as a single JavaScript object. `level-export` uses a streaming interface instead and outputs JSON-serialized strings suitable for piping to a file or other destination.
 
 ## contributors
 
